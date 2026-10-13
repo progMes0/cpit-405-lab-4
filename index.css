@@ -1,0 +1,86 @@
+
+body {
+    font-family: serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-container {
+    width: 100%;
+    max-width: 500px; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+
+label {
+    display: block; /* Forces label onto its own line above the box */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px; 
+    color: #000;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+textarea {
+    display: block;
+    width: 100%; 
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't alter the width */
+    outline: none;
+    font-family: inherit;
+}
+
+/* Placeholder text styling */
+input::placeholder,
+textarea::placeholder {
+    color: #8e8e8e;
+}
+
+/* Comment field height */
+textarea {
+    height: 220px;
+    resize: vertical;
+}
+
+/* Black full-width Submit Button */
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.submit-btn:hover {
+    background-color: #222222;
+}
